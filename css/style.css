@@ -1,0 +1,70 @@
+body{
+  text-align: center;
+  background: #E5E5E5;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #000000;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#relogio{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#relogio > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #696969;
+  display: inline-block;
+}
+
+#relogio div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #000000;
+  display: inline-block;
+}
+
+.descricao{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.draggable 
+  { 
+    background: #fff; 
+    padding-bottom: 20px; 
+    padding-top: 20px; 
+    padding-right: 0px; 
+    padding-left: 0px; 
+    cursor: move;
+    border: #000 1px solid;
+    text-align: center;
+    font-weight: bold
+  }
+
+
+.droppable 
+  { 
+    font-family: sans-serif;
+    color: #000;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    width: 350px;
+    margin:auto;
+    list-style: none;
+    padding: 10px;
+    height: 250px;
+  }
